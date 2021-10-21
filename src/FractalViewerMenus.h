@@ -1,0 +1,1 @@
+/***** * objBullMenus.h * *		Public interfaces for objBullMenus.c * *****/#pragma once	// include this header				// only once per source filevoid HandleMenu (long mSelect);void AdjustMenus(void);void SetUpMenus(void);
