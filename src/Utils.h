@@ -1,0 +1,1 @@
+/***** * Utils.h * *	several utilities * *****/#pragma once	// include this header				// only once per source filevoid concat (StringPtr s, StringPtr p);
