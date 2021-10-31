@@ -1,0 +1,1 @@
+/***** * FractalViewerPrefs.h * *		Public interfaces for FractalViewerPrefs.c * *****/#pragma once	// include this header				// only once per source filestruct FractalViewerPrefs {	Boolean BW;	double JuliaX;	double JuliaY;};void HandlePrefs(void);

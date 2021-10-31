@@ -1,0 +1,1 @@
+#include <Packages.h>			// for NumToString prototype#include <stdlib.h>#include "Utils.h"/*** * concatenate two Pascal strings * ***/void concat (StringPtr s, StringPtr p){	BlockMove(p+1, s+1+s[0], (long) p[0]);	s[0] += p[0];	}
